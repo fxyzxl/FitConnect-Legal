@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung — FitConnect</title>
+<style>
+  :root {
+    --brand: #2FAE60;
+    --text: #1A1D1F;
+    --text-secondary: #5B6168;
+    --border: #E4E7EA;
+    --bg: #FFFFFF;
+    --bg-soft: #F7F9F8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 32px 20px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-soft);
+  }
+  header .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--text);
+  }
+  header .brand .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--brand);
+    flex: none;
+  }
+  header h1 {
+    margin: 16px 0 4px;
+    font-size: 26px;
+  }
+  header .meta {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  h2 {
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 6px;
+  }
+  p, li { font-size: 15px; color: var(--text); }
+  ul { padding-left: 20px; }
+  .placeholder {
+    background: #FFF7E6;
+    border: 1px solid #F3D98B;
+    color: #8A6214;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .note {
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-top: 32px;
+  }
+  footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 13px;
+    padding: 24px 20px 40px;
+  }
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="dot"></span> FitConnect</div>
+  <h1>Datenschutzerklärung</h1>
+  <div class="meta">Stand: Beta-Version 1.0 · Letzte Aktualisierung: Oktober 2026</div>
+</header>
+
+<main>
+
+<p>Diese Datenschutzerklärung informiert dich darüber, welche personenbezogenen Daten bei der Nutzung der FitConnect-App (Beta) verarbeitet werden, zu welchen Zwecken dies geschieht und welche Rechte dir dabei zustehen.</p>
+
+<h2>1. Verantwortlicher</h2>
+<p>Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
+<p>
+  <span class="placeholder">[Vollständiger Name / Firmenname]</span><br>
+  <span class="placeholder">[Anschrift]</span><br>
+  <span class="placeholder">[Land]</span>
+</p>
+
+<h2>2. Kontakt</h2>
+<p>Bei Fragen zum Datenschutz oder zur Ausübung deiner Rechte kannst du uns kontaktieren:</p>
+<p>E-Mail: <span class="placeholder">[Kontakt-E-Mail-Adresse]</span></p>
+<p>In der App selbst ist unter „Einstellungen → Hilfe &amp; Feedback" ein Kontaktweg per E-Mail hinterlegt.</p>
+
+<h2>3. Überblick: Welche personenbezogenen Daten wir verarbeiten</h2>
+<p>FitConnect ist eine Social-Community-App für Mitglieder von Fitnessstudios. Im Rahmen der Nutzung verarbeiten wir insbesondere:</p>
+<ul>
+  <li>Account- und Anmeldedaten (E-Mail-Adresse, Authentifizierungsdaten)</li>
+  <li>Profildaten (Vorname, Geburtsdatum, Geschlecht, Profiltext, Trainingsvorlieben, Profilfoto)</li>
+  <li>Studio-/Check-in-Daten (ausgewähltes Stammstudio, Check-in-Zeitpunkte)</li>
+  <li>Daten zu Connect-Anfragen, Connections, Blockierungen und Meldungen</li>
+  <li>Chat-Nachrichten zwischen verbundenen Nutzer:innen</li>
+  <li>Push-Benachrichtigungs-Token und In-App-Benachrichtigungen</li>
+</ul>
+<p>Im Folgenden erläutern wir dies im Detail.</p>
+
+<h2>4. Registrierung und Anmeldung</h2>
+<p>Für die Nutzung von FitConnect ist ein Konto erforderlich. Die Registrierung und Anmeldung erfolgt über unseren Backend-Dienstleister Supabase (Supabase Auth). Du kannst wählen zwischen:</p>
+<ul>
+  <li><strong>E-Mail und Passwort:</strong> Wir verarbeiten deine E-Mail-Adresse und ein von dir gewähltes Passwort. Passwörter werden ausschließlich durch Supabase Auth nach branchenüblichen Verfahren gehasht gespeichert; FitConnect selbst hat zu keinem Zeitpunkt Zugriff auf dein Passwort im Klartext.</li>
+  <li><strong>Google-Anmeldung:</strong> Bei Anmeldung über Google (OAuth) erhalten wir von Google deine E-Mail-Adresse und eine eindeutige Kontokennung, um dein FitConnect-Konto zuzuordnen oder zu erstellen.</li>
+  <li><strong>Apple-Anmeldung (nur iOS):</strong> Bei „Sign in with Apple" erhalten wir von Apple deine E-Mail-Adresse (bzw. eine von Apple bereitgestellte Weiterleitungs-Adresse, falls du dich für „E-Mail verbergen" entscheidest) sowie eine eindeutige Kontokennung. Deinen Namen übermittelt Apple nur bei der allerersten Anmeldung.</li>
+</ul>
+<p>Rechtsgrundlage ist die Erfüllung des Nutzungsvertrags mit dir (Art. 6 Abs. 1 lit. b DSGVO).</p>
+
+<h2>5. Nutzerprofil</h2>
+<p>Für die Nutzung der Community-Funktionen legst du ein Profil an. Folgende Felder werden dabei verarbeitet:</p>
+<ul>
+  <li>Vorname</li>
+  <li>Geburtsdatum (zur Altersanzeige; die Anzeige deines Alters gegenüber anderen Nutzer:innen kannst du über Privatsphäre-Einstellungen steuern)</li>
+  <li>Geschlecht</li>
+  <li>Profilbeschreibung („Über mich")</li>
+  <li>Trainingsvorlieben / Trainingsarten</li>
+  <li>Profilbild und optionale weitere Fotos</li>
+  <li>Stammstudio</li>
+</ul>
+<p>Über Privatsphäre-Einstellungen kannst du zudem steuern, ob dein Stammstudio, dein Alter, deine Trainingsarten für andere Nutzer:innen sichtbar sind und ob dein Profil in der Entdecken-Funktion angezeigt wird.</p>
+<p>Rechtsgrundlage ist die Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
+
+<h2>6. Gym-Auswahl und Check-ins</h2>
+<p>Du kannst ein Stammstudio aus unserer Studio-Datenbank auswählen und dich dort „einchecken", um anderen anwesenden Nutzer:innen im selben Studio in Echtzeit angezeigt zu werden. Dabei verarbeiten wir:</p>
+<ul>
+  <li>das ausgewählte Studio</li>
+  <li>Zeitpunkt des Check-ins sowie Ablaufzeitpunkt der Anwesenheitsanzeige</li>
+  <li>Zeitpunkt eines aktiven Check-outs, sofern erfolgt</li>
+</ul>
+<p>Andere Nutzer:innen desselben Studios sehen ausschließlich, dass du <em>aktuell</em> anwesend bist — eine Historie vergangener Check-ins wird anderen Nutzer:innen nicht angezeigt. Technisch bleiben Check-in-Datensätze in unserer Datenbank bestehen, bis dein Account gelöscht wird; eine automatische, zeitbasierte Löschung einzelner Check-in-Einträge erfolgt aktuell nicht separat vom Account.</p>
+<p>Rechtsgrundlage ist die Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
+
+<h2>7. Discovery / Connections</h2>
+<p>In der „Entdecken"-Funktion werden dir andere Profile angezeigt, mit denen du eine Connect-Anfrage senden kannst. Nimmt die andere Person die Anfrage an, entsteht eine gegenseitige „Connection", über die ihr chatten könnt. Wir verarbeiten dabei:</p>
+<ul>
+  <li>gesendete und erhaltene Connect-Anfragen</li>
+  <li>bestehende Connections</li>
+  <li>zurückgezogene Anfragen und aufgehobene Connections</li>
+</ul>
+<p>Zusätzlich kannst du andere Nutzer:innen <strong>blockieren</strong> oder <strong>melden</strong>:</p>
+<ul>
+  <li>Eine Blockierung verhindert serverseitig (nicht nur in der Darstellung), dass zwischen dir und der blockierten Person weiterhin Nachrichten ausgetauscht werden können, und blendet euch gegenseitig aus Discovery, Connections und Anfragen aus.</li>
+  <li>Eine Meldung speichert den von dir angegebenen Grund sowie die gemeldete Person, damit Missbrauch nachvollzogen werden kann.</li>
+</ul>
+<p>Rechtsgrundlagen sind die Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) sowie, für Blockierungen und Meldungen, unser berechtigtes Interesse an einer sicheren Nutzung der Plattform (Art. 6 Abs. 1 lit. f DSGVO).</p>
+
+<h2>8. Chat und Nachrichten</h2>
+<p>Besteht zwischen zwei Nutzer:innen eine Connection, könnt ihr über die integrierte Chat-Funktion Textnachrichten austauschen. Wir speichern dabei den Nachrichtentext, den Zeitpunkt des Versands sowie die beteiligten Nutzer:innen. Der Zugriff auf eine Unterhaltung ist serverseitig ausschließlich den beiden beteiligten Personen vorbehalten. Nachrichten werden in Echtzeit zugestellt (siehe Abschnitt 10).</p>
+<p>Rechtsgrundlage ist die Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
+
+<h2>9. Push-Benachrichtigungen</h2>
+<p>Mit deiner Erlaubnis senden wir dir Push-Benachrichtigungen, etwa über neue Connect-Anfragen, neue Connections oder neue Nachrichten. Dazu speichern wir ein Push-Token deines Geräts. Benachrichtigungen über neue Chat-Nachrichten enthalten dabei ausschließlich einen allgemeinen Hinweistext („Du hast eine neue Nachricht."), nicht den eigentlichen Nachrichteninhalt.</p>
+<p>Für den technischen Versand nutzen wir den Push-Dienst von Expo (650 Industries, Inc.), der die Benachrichtigung je nach Betriebssystem über den Dienst von Apple (Apple Push Notification service) bzw. Google (Firebase Cloud Messaging) an dein Gerät weiterleitet. Zusätzlich werden relevante Ereignisse als In-App-Benachrichtigung in der App selbst gespeichert und angezeigt.</p>
+<p>Rechtsgrundlage ist deine Einwilligung bei der Erteilung der Benachrichtigungsberechtigung (Art. 6 Abs. 1 lit. a DSGVO); du kannst Benachrichtigungen jederzeit in den Geräte- bzw. App-Einstellungen deaktivieren.</p>
+
+<h2>10. Speicherung von Profilbildern und Realtime-Funktionen</h2>
+<p>Profilbilder und weitere von dir hochgeladene Fotos werden über Supabase Storage gespeichert. Der Zugriff auf diese Bilder ist auf angemeldete FitConnect-Nutzer:innen beschränkt; eine Bearbeitung oder Löschung ist ausschließlich dir selbst möglich.</p>
+<p>Für Echtzeit-Funktionen (aktuelle Anwesenheit im Studio, Chat-Nachrichten, Benachrichtigungen) nutzen wir die Realtime-Infrastruktur von Supabase, die Änderungen in der Datenbank über eine gesicherte Verbindung unmittelbar an die App übermittelt.</p>
+
+<h2>11. Zwecke der Verarbeitung</h2>
+<p>Wir verarbeiten die oben genannten Daten ausschließlich zu folgenden Zwecken: Bereitstellung und Betrieb der FitConnect-App, Ermöglichung der Community- und Connection-Funktionen, Absicherung gegen Missbrauch (Blockierungen/Meldungen) sowie zur technischen Benachrichtigung über relevante Ereignisse. Eine Verarbeitung zu Werbe-, Analyse- oder Profiling-Zwecken findet nicht statt (siehe Abschnitt 17).</p>
+
+<h2>12. Empfänger / Auftragsverarbeiter</h2>
+<p>Zur Bereitstellung der App setzen wir folgende Dienstleister ein, die in unserem Auftrag bzw. als eigenständig Verantwortliche an der Verarbeitung beteiligt sind:</p>
+<ul>
+  <li><strong>Supabase</strong> — Datenbank, Authentifizierung, Datei-Speicherung, Echtzeit-Infrastruktur und serverseitige Funktionen.</li>
+  <li><strong>Google</strong> — Google-Anmeldung (OAuth) sowie Firebase Cloud Messaging als technischer Zustelldienst für Push-Benachrichtigungen auf Android-Geräten.</li>
+  <li><strong>Apple</strong> — „Sign in with Apple" sowie der Apple Push Notification service als technischer Zustelldienst für Push-Benachrichtigungen auf iOS-Geräten.</li>
+  <li><strong>Expo / 650 Industries, Inc.</strong> — Vermittlung von Push-Benachrichtigungen zwischen unserem Server und den Diensten von Apple/Google.</li>
+</ul>
+<p>Mit den als Auftragsverarbeiter eingesetzten Dienstleistern bestehen bzw. werden, soweit erforderlich, Verträge zur Auftragsverarbeitung gemäß Art. 28 DSGVO geschlossen. <span class="placeholder">[Details zu bestehenden Auftragsverarbeitungsverträgen ergänzen]</span></p>
+
+<h2>13. Drittlandübermittlungen</h2>
+<p>Die oben genannten Dienstleister Google, Apple und Expo / 650 Industries, Inc. haben ihren Sitz in den USA. Bei der Nutzung dieser Dienste kann es daher zu einer Übermittlung personenbezogener Daten in die USA kommen. <span class="placeholder">[Ergänzen: konkrete Übermittlungsgarantien des jeweiligen Anbieters, z. B. EU-Standardvertragsklauseln]</span>. Informationen zu den Hosting-Regionen unserer Supabase-Infrastruktur werden <span class="placeholder">[ergänzt]</span>.</p>
+
+<h2>14. Speicherdauer</h2>
+<p>Wir speichern deine Daten, solange dein FitConnect-Konto besteht. Eine automatische, zeitlich befristete Löschung einzelner Datenkategorien (z. B. alte Nachrichten oder Check-ins) ist in der aktuellen Beta-Version nicht implementiert. Mit der Löschung deines Accounts (siehe Abschnitt 15) werden deine Daten vollständig entfernt.</p>
+
+<h2>15. Accountlöschung</h2>
+<p>Du kannst dein Konto jederzeit in der App unter „Account → Account löschen" dauerhaft löschen. Dabei werden automatisiert und unwiderruflich entfernt:</p>
+<ul>
+  <li>deine hochgeladenen Fotos aus dem Datei-Speicher</li>
+  <li>dein Profil sowie sämtliche damit verknüpften Daten — u. a. Connect-Anfragen, Connections, Blockierungen, Meldungen, Chat-Nachrichten und -Unterhaltungen, Check-in-Einträge, Benachrichtigungen, Benachrichtigungs- und Privatsphäre-Einstellungen sowie Push-Token</li>
+  <li>dein Authentifizierungskonto bei unserem Backend-Dienstleister</li>
+</ul>
+<p>Die Löschung kann nicht rückgängig gemacht werden.</p>
+
+<h2>16. Deine Rechte</h2>
+<p>Dir stehen nach der DSGVO folgende Rechte zu:</p>
+<ul>
+  <li>Auskunft über die zu dir gespeicherten Daten (Art. 15 DSGVO)</li>
+  <li>Berichtigung unrichtiger Daten (Art. 16 DSGVO) — viele Profilfelder kannst du direkt in der App selbst bearbeiten</li>
+  <li>Löschung deiner Daten (Art. 17 DSGVO) — unmittelbar über die App-Funktion „Account löschen" möglich</li>
+  <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+  <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+  <li>Widerspruch gegen Verarbeitungen, die auf berechtigtem Interesse beruhen (Art. 21 DSGVO)</li>
+</ul>
+<p>Zur Ausübung dieser Rechte kannst du uns über die in Abschnitt 2 genannten Kontaktdaten erreichen.</p>
+
+<h2>17. Widerruf von Einwilligungen</h2>
+<p>Soweit die Verarbeitung auf deiner Einwilligung beruht (z. B. Push-Benachrichtigungen), kannst du diese jederzeit mit Wirkung für die Zukunft widerrufen — etwa über die Benachrichtigungseinstellungen deines Geräts oder in den App-Einstellungen unter „Benachrichtigungen".</p>
+
+<h2>18. Beschwerderecht bei einer Datenschutzaufsichtsbehörde</h2>
+<p>Du hast das Recht, dich bei einer Datenschutzaufsichtsbehörde über die Verarbeitung deiner personenbezogenen Daten durch uns zu beschweren. Die für uns zuständige Aufsichtsbehörde ist: <span class="placeholder">[zuständige Aufsichtsbehörde ergänzen]</span>.</p>
+
+<h2>19. Werbung, Analyse und Tracking</h2>
+<p>FitConnect setzt in der aktuellen Beta-Version <strong>keine</strong> Werbe-, Analyse- oder Tracking-Dienste Dritter ein. Es findet kein Profiling für Werbezwecke statt, es werden keine Cookies zu Tracking-Zwecken gesetzt und keine Nutzungsdaten an Werbenetzwerke übermittelt.</p>
+
+<h2>20. Zahlungen</h2>
+<p>FitConnect verarbeitet in der aktuellen Beta-Version keine Zahlungsdaten und bindet keinen Zahlungsdienstleister ein. In der App angezeigte „Premium"-Hinweise sind aktuell rein lokale Darstellungselemente ohne reale Zahlungsfunktion.</p>
+
+<h2>21. Gesundheitsdaten</h2>
+<p>FitConnect ist eine Social-Community-App für Fitnessstudio-Mitglieder und kein Medizin- oder Gesundheits-Produkt. Es werden keine Gesundheits- oder medizinischen Daten im Sinne des Art. 9 DSGVO verarbeitet — Trainingsvorlieben und Check-in-Informationen stellen keine Gesundheitsdaten dar.</p>
+
+<h2>22. Datensicherheit</h2>
+<p>Wir setzen technische und organisatorische Maßnahmen ein, um deine Daten zu schützen, insbesondere:</p>
+<ul>
+  <li>verschlüsselte Übertragung (HTTPS/TLS) für sämtliche Kommunikation zwischen App und Server</li>
+  <li>Zeilenebene-Zugriffskontrollen (Row Level Security) auf Datenbankebene, die sicherstellen, dass Nutzer:innen ausschließlich auf die für sie bestimmten Daten zugreifen können</li>
+  <li>serverseitige, eng begrenzte Verwendung erhöhter Systemrechte ausschließlich innerhalb einzelner, klar abgegrenzter Backend-Funktionen (z. B. Accountlöschung), niemals clientseitig zugänglich</li>
+  <li>Passwort-Speicherung ausschließlich gehasht durch unseren Authentifizierungsdienstleister, niemals im Klartext</li>
+  <li>serverseitige Durchsetzung von Blockierungen, sodass blockierte Nutzer:innen auch über direkte Programmierschnittstellen keine Nachrichten mehr austauschen können</li>
+</ul>
+
+<h2>23. Änderungen dieser Datenschutzerklärung</h2>
+<p>Da sich FitConnect aktuell in der Beta-Phase befindet, kann sich der Funktionsumfang der App und damit auch diese Datenschutzerklärung ändern. Die jeweils aktuelle Fassung ist stets unter dieser Adresse abrufbar.</p>
+
+<div class="note">
+  Dies ist eine Datenschutzerklärung für die Beta-Phase von FitConnect. Mit <span class="placeholder">gelb markierte</span> Stellen enthalten Angaben, die noch ergänzt werden müssen (z. B. Firmenname, Anschrift, zuständige Aufsichtsbehörde).
+</div>
+
+</main>
+
+<footer>
+  FitConnect — Datenschutzerklärung (Beta)
+</footer>
+</body>
+</html>
