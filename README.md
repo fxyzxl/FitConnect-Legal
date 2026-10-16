@@ -5,5 +5,6 @@ Public static legal pages for the FitConnect app (privacy policy), served via Gi
 This repository is intentionally separate from the private FitConnect app repository and contains no application source code — only static HTML/CSS legal pages.
 
 - Privacy Policy (German): [`/privacy/`](./privacy/index.html)
+- Impressum (German): [`/impressum/`](./impressum/index.html)
 
 No JavaScript, no analytics, no cookies, no tracking.
