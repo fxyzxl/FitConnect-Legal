@@ -1,0 +1,8 @@
+{
+  "name": "KONNEQTD",
+  "short_name": "KONNEQTD",
+  "icons": [{ "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }],
+  "theme_color": "#0A0B0D",
+  "background_color": "#0A0B0D",
+  "display": "browser"
+}
